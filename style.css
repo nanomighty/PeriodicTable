@@ -100,16 +100,16 @@ p {
     margin: 1px;
 }
 
-#firstBottom {
+.Bottom {
     display: flex;
 }
 
-#firstBottom ul{
+.Bottom ul{
     list-style: none;
     display: flex;
 }
 
-#firstBottom li{
+.Bottom li{
     display: inline-block;
 }
 
