@@ -13,14 +13,17 @@
 
 .heading {
     color: red;
-    display: flex;
+    /* display: inline-block; */
     list-style: none;
 }
 
 .heading li {
-    width: 30px;
+    width: 25px;
     font-size: 11px;
-    padding: 10.5px;
+    padding: 9.5px;
+    margin: 0px 1px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 #middle_section {
@@ -61,8 +64,8 @@ p {
     background-color: #689bff;
     padding: 0px;
     margin: 0px;
-    width: 42px;
-    height: 42px;
+    width: 45px;
+    height: 45px;
     border: 1px solid lightgray;
     margin: 1px;
 }
@@ -70,8 +73,8 @@ p {
 .blank{
     padding: 0px;
     margin: 0px;
-    width: 42px;
-    height: 42px;
+    width: 45px;
+    height: 45px;
     border: 1px solid #eeeeee;
     margin: 1px;
 }
@@ -84,8 +87,8 @@ p {
     background-color: #f09a98;
     padding: 0px;
     margin: 0px;
-    width: 42px;
-    height: 42px;
+    width: 45px;
+    height: 45px;
     border: 1px solid lightgray;
     margin: 1px;
 }
@@ -94,8 +97,8 @@ p {
     background-color: #f8cb00;
     padding: 0px;
     margin: 0px;
-    width: 42px;
-    height: 42px;
+    width: 45px;
+    height: 45px;
     border: 1px solid lightgray;
     margin: 1px;
 }
@@ -143,15 +146,15 @@ p {
     font-size: 11px;
     width: 9px;
     height: 25px;
-    margin-left: 50px;
+    margin-left: 56px;
 }
 
 .green {
     background-color: #65cb21;
     padding: 0px;
     margin: 0px;
-    width: 42px;
-    height: 42px;
+    width: 45px;
+    height: 45px;
     border: 1px solid lightgray;
     margin: 1px;
 }
